@@ -6,12 +6,12 @@ pipeline {
         sh 'mvn clean'
       }
     }
- 	stage('Test') { 
-      steps {
-        echo 'Test Appplication...' 
-        sh 'mvn test'
-      }
-    }
+//  	stage('Test') { 
+//       steps {
+//         echo 'Test Appplication...' 
+//         sh 'mvn test'
+//       }
+//     }
  	
    
 	stage('Deploy CloudHub') { 
